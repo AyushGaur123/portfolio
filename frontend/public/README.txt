@@ -1,0 +1,1 @@
+Place your resume PDF here as public/resume.pdf if you want the resume link enabled later.

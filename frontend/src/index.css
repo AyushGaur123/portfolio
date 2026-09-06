@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---- design tokens (raw values, swapped between light/dark) ---- */
+:root {
+  --bg: #f6f2ea;
+  --paper: #fbfaf7;
+  --surface: #ffffff;
+  --text: #181714;
+  --muted: #6d6a63;
+  --line: #d9d4ca;
+  --accent: #9a7448;
+  --accent-soft: #e9dfd0;
+  --dark: #171614;
+  --dark-paper: #20201d;
+  --dark-text: #f4f0e8;
+  --dark-muted: #aaa59b;
+  --dark-line: #3a3833;
+}
+
+.dark .site {
+  --bg: #11110f;
+  --paper: #181816;
+  --surface: #20201d;
+  --text: #f4f0e8;
+  --muted: #aaa59b;
+  --line: #383631;
+  --accent: #c5a06d;
+  --accent-soft: #2b261f;
+  --dark: #0c0c0b;
+  --dark-paper: #171715;
+  --dark-text: #f4f0e8;
+  --dark-muted: #aaa59b;
+  --dark-line: #36342f;
+}
+
+/* ---- expose the tokens as tailwind utilities (bg-bg, text-muted, border-line, etc.) ---- */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-dark: var(--dark);
+  --color-dark-paper: var(--dark-paper);
+  --color-dark-text: var(--dark-text);
+  --color-dark-muted: var(--dark-muted);
+  --color-dark-line: var(--dark-line);
+
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+/* hide scrollbar on the projects carousel — no Tailwind utility for this */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
