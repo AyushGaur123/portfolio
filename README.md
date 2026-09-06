@@ -8,7 +8,7 @@
 
 <br/>
 
-[🌐 Live Portfolio](YOUR_LIVE_URL) • [💻 GitHub](YOUR_GITHUB_URL) • [🔗 LinkedIn](YOUR_LINKEDIN_URL)
+[🌐 Live Portfolio](YOUR_LIVE_URL) • [💻 GitHub](https://github.com/AyushGaur123/) • [🔗 LinkedIn](https://www.linkedin.com/in/ayush-gaur-7227b9338/)
 
 </div>
 
@@ -197,8 +197,8 @@ Interested in working together or just want to say hello?
 ### Let's connect 🤝
 
 [🌐 Portfolio](YOUR_LIVE_URL)
-[💼 LinkedIn](YOUR_LINKEDIN_URL)
-[🐙 GitHub](YOUR_GITHUB_URL)
+[💼 LinkedIn](https://www.linkedin.com/in/ayush-gaur-7227b9338/)
+[🐙 GitHub](https://github.com/AyushGaur123/)
 
 </div>
 
