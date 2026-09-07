@@ -1,5 +1,6 @@
 export const profile = {
   name: "Ayush Gaur",
+  image:"public/photo2.png",
   eyebrow: "Full Stack Developer",
   title: "I build thoughtful digital experiences.",
   subtitle:

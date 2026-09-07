@@ -2,7 +2,6 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* ---- design tokens (raw values, swapped between light/dark) ---- */
 :root {
   --bg: #f6f2ea;
   --paper: #fbfaf7;
@@ -35,7 +34,6 @@
   --dark-line: #36342f;
 }
 
-/* ---- expose the tokens as tailwind utilities (bg-bg, text-muted, border-line, etc.) ---- */
 @theme inline {
   --color-bg: var(--bg);
   --color-paper: var(--paper);
@@ -70,7 +68,6 @@ body {
   min-width: 320px;
 }
 
-/* hide scrollbar on the projects carousel — no Tailwind utility for this */
 .no-scrollbar {
   scrollbar-width: none;
   -ms-overflow-style: none;

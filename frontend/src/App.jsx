@@ -1,7 +1,3 @@
-
-
-
-
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
@@ -29,25 +25,17 @@ export default function App() {
       "
     >
 
-      {/* =========================================
-          GLOBAL ANIMATED BACKGROUND
-      ========================================= */}
 
       <AnimatedBackground />
 
 
-      {/* =========================================
-          NAVBAR
-      ========================================= */}
 
       <div className="relative z-20">
         <Navbar />
       </div>
 
 
-      {/* =========================================
-          PAGE CONTENT
-      ========================================= */}
+
 
       <main className="relative z-10">
 
@@ -66,9 +54,6 @@ export default function App() {
       </main>
 
 
-      {/* =========================================
-          FOOTER
-      ========================================= */}
 
       <div className="relative z-10">
         <Footer />
