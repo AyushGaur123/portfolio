@@ -1,32 +1,6 @@
 import { motion } from "framer-motion";
 import { FiArrowDown, FiArrowUpRight, FiGithub, FiLinkedin } from "react-icons/fi";
 import { profile } from "../data/profile";
-import AnimatedBackground from "../components/AnimatedBackground";
-
-function AGMonogram() {
-  return (
-    <svg
-      viewBox="0 0 200 200"
-      className="w-full h-full text-bg"
-      role="img"
-      aria-label="AG"
-    >
-      <g
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="7"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        {/* A */}
-        <path d="M35,160 L65,40 L95,160" />
-        <path d="M48,108 L82,108" />
-        {/* G */}
-        <path d="M165,40 L115,40 L115,160 L165,160 L165,100 L135,100" />
-      </g>
-    </svg>
-  );
-}
 
 export default function Hero() {
   return (

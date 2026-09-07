@@ -1,6 +1,10 @@
+import photo from "../assets/projects/photo2.png"
+
+
+
 export const profile = {
   name: "Ayush Gaur",
-  image:"public/photo2.png",
+  image:photo,
   eyebrow: "Full Stack Developer",
   title: "I build thoughtful digital experiences.",
   subtitle:
