@@ -21,9 +21,6 @@ export default function AnimatedBackground() {
         xmlns="http://www.w3.org/2000/svg"
       >
 
-        {/* =========================================
-            TOP RIGHT HEXAGON
-        ========================================= */}
 
         <g
           stroke="var(--line)"
@@ -86,9 +83,7 @@ export default function AnimatedBackground() {
         </g>
 
 
-        {/* =========================================
-            TOP RIGHT CONNECTIONS
-        ========================================= */}
+       
 
         <g
           stroke="var(--line)"
@@ -110,9 +105,6 @@ export default function AnimatedBackground() {
         </g>
 
 
-        {/* =========================================
-            TOP LEFT
-        ========================================= */}
 
         <g
           stroke="var(--line)"
@@ -137,9 +129,7 @@ export default function AnimatedBackground() {
         </g>
 
 
-        {/* =========================================
-            BOTTOM LEFT HEXAGON
-        ========================================= */}
+
 
         <g
           stroke="var(--line)"
@@ -189,11 +179,6 @@ export default function AnimatedBackground() {
 
         </g>
 
-
-        {/* =========================================
-            BOTTOM LEFT CONNECTIONS
-        ========================================= */}
-
         <g
           stroke="var(--line)"
           strokeWidth="1.1"
@@ -213,9 +198,7 @@ export default function AnimatedBackground() {
         </g>
 
 
-        {/* =========================================
-            FLOATING HEXAGONS
-        ========================================= */}
+    
 
         <g
           stroke="var(--line)"
@@ -274,10 +257,7 @@ export default function AnimatedBackground() {
         </g>
 
 
-        {/* =========================================
-            RANDOM DIAGONAL LINES
-        ========================================= */}
-
+     
         <g
           stroke="var(--line)"
           strokeWidth="1"
@@ -301,10 +281,6 @@ export default function AnimatedBackground() {
         </g>
 
 
-        {/* =========================================
-            ANIMATED ACCENT SHAPE
-        ========================================= */}
-
         <motion.path
           d="
             M1460 735
@@ -326,10 +302,6 @@ export default function AnimatedBackground() {
           }}
         />
 
-
-        {/* =========================================
-            SECOND ANIMATED SHAPE
-        ========================================= */}
 
         <motion.path
           d="
@@ -353,9 +325,6 @@ export default function AnimatedBackground() {
         />
 
 
-        {/* =========================================
-            MOVING DASHED LINE
-        ========================================= */}
 
         <motion.path
           d="
@@ -379,10 +348,6 @@ export default function AnimatedBackground() {
           }}
         />
 
-
-        {/* =========================================
-            SMALL DOTS
-        ========================================= */}
 
         <g
           fill="var(--accent)"

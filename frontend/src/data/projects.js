@@ -52,7 +52,7 @@ export const projects = [
     description:
       "A responsive music interface exploring playlists, a custom player experience and component-based React UI.",
     image: spotify,
-    tech: ["React", "JavaScript", "CSS"],
+    tech: ["html", "JavaScript", "CSS"],
     github: "https://github.com/AyushGaur123/spotifyClone",
     live: "",
     featured: false,
