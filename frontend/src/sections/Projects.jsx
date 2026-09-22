@@ -40,7 +40,6 @@ export default function Projects() {
       )
     );
 
-    // Number of possible starting positions
     const slides = Math.max(
       1,
       cards.length - visibleCards + 1
@@ -48,7 +47,6 @@ export default function Projects() {
 
     setTotalSlides(slides);
 
-    // Keep active slide valid after resize
     setActiveSlide((current) =>
       Math.min(current, slides - 1)
     );
@@ -75,7 +73,6 @@ export default function Projects() {
       parseFloat(styles.gap) ||
       0;
 
-    // One complete movement of the carousel
     const slideWidth = cardWidth + gap;
 
     if (slideWidth <= 0) return;
@@ -84,7 +81,6 @@ export default function Projects() {
       carousel.scrollLeft / slideWidth
     );
 
-    // Don't allow the value to go beyond the dots
     const safeSlide = Math.max(
       0,
       Math.min(

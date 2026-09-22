@@ -2,7 +2,6 @@ import SectionHeading from "../components/SectionHeading";
 import { skills } from "../data/portfolioData";
 import { toolBadges } from "../data/skillIcons";
 
-// split an array into two balanced columns, filled top-to-bottom
 function splitColumns(items) {
   const mid = Math.ceil(items.length / 2);
   return [items.slice(0, mid), items.slice(mid)];
