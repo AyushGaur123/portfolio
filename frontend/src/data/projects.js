@@ -45,19 +45,6 @@ export const projects = [
     featured: true,
   },
   {
-    id: 5,
-    number: "05",
-    title: "Spotify Clone",
-    year: "2025",
-    description:
-      "A responsive music interface exploring playlists, a custom player experience and component-based React UI.",
-    image: spotify,
-    tech: ["html", "JavaScript", "CSS"],
-    github: "https://github.com/AyushGaur123/spotifyClone",
-    live: "",
-    featured: false,
-  },
-  {
     id: 4,
     number: "04",
     title: "Developer Portfolio",
@@ -68,6 +55,19 @@ export const projects = [
     tech: ["React", "Tailwind", "Node.js", "MongoDB"],
     github: "https://github.com/AyushGaur123/FUTURE_FS_01",
     live: "https://portfolio-frontend-d8rq.onrender.com/",
+    featured: false,
+  },
+  {
+    id: 5,
+    number: "05",
+    title: "Spotify Clone",
+    year: "2025",
+    description:
+      "A responsive music interface exploring playlists, a custom player experience and component-based React UI.",
+    image: spotify,
+    tech: ["html", "JavaScript", "CSS"],
+    github: "https://github.com/AyushGaur123/spotifyClone",
+    live: "",
     featured: false,
   },
 ];
