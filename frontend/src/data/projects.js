@@ -45,8 +45,8 @@ export const projects = [
     featured: true,
   },
   {
-    id: 4,
-    number: "04",
+    id: 5,
+    number: "05",
     title: "Spotify Clone",
     year: "2025",
     description:
@@ -58,8 +58,8 @@ export const projects = [
     featured: false,
   },
   {
-    id: 5,
-    number: "05",
+    id: 4,
+    number: "04",
     title: "Developer Portfolio",
     year: "2026",
     description:
@@ -67,7 +67,7 @@ export const projects = [
     image: port,
     tech: ["React", "Tailwind", "Node.js", "MongoDB"],
     github: "https://github.com/AyushGaur123/FUTURE_FS_01",
-    live: "",
+    live: "https://portfolio-frontend-d8rq.onrender.com/",
     featured: false,
   },
 ];
